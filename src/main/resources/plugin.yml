@@ -1,0 +1,15 @@
+main: com.julianusiv.whitelist.App
+name: Whitelist
+version: 0.2
+api-version: 1.17
+load: STARTUP
+commands:
+  listban:
+    description: bean someone.
+    permission: whitelist.listban
+    permission-message: You don't have permission to use this command
+    usage: /<command> [PlayerName]
+permissions:
+  whitelist.listban:
+    description: Permission to ban someone from whitelisting.
+    default: op
