@@ -2,8 +2,8 @@
 enableDiscord: false
 # discord bot token - never show that token to anyone - it is a username and passowrd for your bot in one
 botToken: null
-# discord bot prefix - replace if you want to change from /
-botPrefix: '/'
+# discord bot prefix - replace if you want to change from .
+botPrefix: '.'
 # a list of roles allowed to whitelist through discord. Example:
 ############################
 # allowedRoleIds:          #

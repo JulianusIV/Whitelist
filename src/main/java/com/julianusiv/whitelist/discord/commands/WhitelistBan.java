@@ -85,7 +85,5 @@ public class WhitelistBan {
         for (String string : toBan) {
             event.getChannel().sendMessage("Banned " + string).queue();
         }
-
-        event.getChannel().sendMessage("Player " + event.getMessage().getContentRaw().substring(prefix.length() + "whitelist".length()).trim() + " is now banned").queue();
     }
 }
