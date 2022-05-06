@@ -68,10 +68,10 @@ A list of (Discord) roles that is allowed to whitelist via Discord.
 ex:
 ```yml
 allowedRoleIds:
-	- '760522213676941332'
-	- '850019046345801768'
-	- '701844438153953420'
-	- '722064316479701083'
+  - '760522213676941332'
+  - '850019046345801768'
+  - '701844438153953420'
+  - '722064316479701083'
 ```
 
 ### allowedModRoleIds
@@ -79,8 +79,8 @@ A list of (Discord) roles that is allowed to ban via Discord.
 ex:
 ```yml
 allowedRoleIds:
-	- '760522213676941332'
-	- '822957506674163792'
+  - '760522213676941332'
+  - '822957506674163792'
 ```
 
 ### linkChannels
